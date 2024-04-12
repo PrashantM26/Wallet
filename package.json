@@ -1,0 +1,57 @@
+{
+  "name": "yum-react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": {
+    "name": "Coderthemes",
+    "url": "https://coderthemes.com/"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint  --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "axios": "^1.6.4",
+    "axios-mock-adapter": "^1.22.0",
+    "clsx": "^2.1.0",
+    "filepond": "^4.30.4",
+    "filepond-plugin-image-crop": "^2.0.6",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.11",
+    "flatpickr": "^4.6.13",
+    "gridjs": "^6.2.0",
+    "preline": "^1.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-filepond": "^7.1.2",
+    "react-helmet-async": "^2.0.4",
+    "react-hook-form": "^7.49.2",
+    "react-quill": "^2.0.0",
+    "react-top-loading-bar": "^2.3.1",
+    "simplebar-react": "^3.2.4",
+    "swiper": "^11.0.5",
+    "tailwind-merge": "^2.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.33",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "react-icons": "^4.12.0",
+    "tailwindcss": "^3.4.0",
+    "tw-colors": "^3.3.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}
